@@ -1,0 +1,31 @@
+This simple Python program checks whether a given number is a palindrome or not.
+
+## What is a Palindrome?
+A palindrome number is one that reads the same forwards and backwards.
+
+# Examples:
+
+121 → Palindrome 
+
+123 → Not a palindrome 
+
+-121 → Not a palindrome (negative sign breaks the symmetry)
+
+## How It Works
+Reject negative numbers right away. A negative number like -121 can never be a palindrome.
+
+Keep a copy of the original number.
+
+Reverse the number by:
+
+Getting the last digit using % 10
+
+Building the reversed number step-by-step
+
+Removing the last digit using // 10
+
+Compare the reversed number with the original.
+
+If they are equal → it's a palindrome 
+
+Otherwise → not a palindrome 
